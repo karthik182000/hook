@@ -1,0 +1,23 @@
+{
+  "name": "hook",
+  "version": "1.0.0",
+  "description": "gooks",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "hook",
+    "sstructure"
+  ],
+  "author": "kar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}
