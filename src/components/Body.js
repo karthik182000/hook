@@ -3,7 +3,7 @@ import {useEffect, useState} from "react"
 
 
 const Body=()=>{
-    const[listOfRes,setListOfRes]=useState();
+    const[listOfRes,setListOfRes]=useState([]);
     useEffect(()=>{fetchData();},[]);
 
   const fetchData=async ()=> {
