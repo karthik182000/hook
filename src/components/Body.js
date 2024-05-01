@@ -24,7 +24,7 @@ const Body=()=>{
               onClick={()=>{
                 const filteredList=listOfRes.filter(
                     (res)=>res.avgRating>4);
-                setResList(filteredList);
+                setListOfRes(filteredList);
               }}>TopRated Restaurants</button>
             </div>
             <div className="res-container">
